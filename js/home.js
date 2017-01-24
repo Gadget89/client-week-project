@@ -1,4 +1,4 @@
-// importing React functionality
+// importing React functionality to home
 import React from 'react'
 // linking to HTML in external file to build Header across top of every page
 import Header from './header'
