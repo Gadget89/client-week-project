@@ -2,10 +2,10 @@ module.exports = {
   entry: "./js/index.js",
   devtool: "source-map",
   output: {
-      path: "./dist",
+      path: "public/dist",
       filename: "bundle.js"
   },
-module: {
+  module: {
       loaders: [
         {
           test: /\.js$/,
